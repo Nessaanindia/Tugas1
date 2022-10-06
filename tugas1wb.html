@@ -1,0 +1,118 @@
+<!-- Tag yang menentukan tipe dokumen -->
+<!DOCTYPE html>
+<!-- Tag yang membuat sebuah dokumen html -->
+<html>
+<!-- Tag yang digunakan untuk menunjukkan meta data(informasi yang tidak ditampilkan) -->
+<head>
+	<!-- Tag yang membuat meta data(info) tentang dokumen -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Tag untuk membuat judul dari sebuah halaman -->
+	<title>Tugas 1</title>
+	<style>
+	table,th,td {
+    border: 1px solid black;
+	}
+	</style>
+
+<!-- Tag yang menunjukkan batas akhir meda data -->
+</head>
+<!-- Tag untuk membuat tubuh dari sebuah halaman -->
+<body>
+		<!-- Tag untuk membaut heading -->
+		<h1>Tugas 1 Mata Kuliah Web Dasar</h1>
+		<!-- Tag <br>untuk membuat jarak antar paragraf-->
+		<br>
+		<!-- Tag <hr> untuk membuat garis horinzontal sebagai pemisah -->
+		<hr>
+		<!-- Tag <p> digunakan untuk membuat paragraf -->
+		<!-- Tag <center> digunakan untuk membuat kalimat paragraf berada di tengah halaman -->
+		<!-- Tag <strong> digunakan untuk menandakan info penting yang akan ditampilkan dengan kalimat tebal -->
+		<!-- Tag <adress> digunakan untuk menandakan info alamat -->
+		<p><center><b>Biodata Mahasisa Kelas B</b></center><br>
+		<center><strong>Universitas Langlangbuana Bandung</center></strong><br>
+		<center><address>Jalan Karapitan No.116, Cikawao, Kec. Lengkong, Kota Bandung, Jawa Barat 40261</address></center>
+		<hr>
+
+		<!-- Tag <i> digunakan untuk menampilkan kalimat atau huruf dbercetak miring atau italic -->
+		<!-- Tag <small> digunakan untuk menampilkan huruf dengan font berukuran kecil -->
+		   Nama	: Nessa Anindia Putri Siregar <br><br>
+		   NPM	: <i> 41155050210057</i> <br><br>
+		   Kelas : <big> B </big><br><br>
+		   No Telfon :<small>08816754321</small>
+		</p>
+
+		<!-- Tag data list digunakan untuk membuat sebuah list data2-->
+		<label for="departement">Choose your departement from the list:</label>
+		<input list="departements" name="departement" id="departement">
+
+		<datalist id="departements">
+  			<option value="Informatika">
+  			<option value="Industri">
+  			<option value="Hukum">
+  			<option value="Pendidikan">
+  			<option value="Ekonomi">
+		</datalist>
+
+		<p>Jenis Kelamin : Perempuan </p>
+
+		<!-- Tag <abbr> digunakan untuk menampilkan kalimat dalam bentuk akronim (singkatan) -->
+		<!-- Tag <time> digunakan untuk menampilkan y/m/d atau waktu -->
+		<abbr title = "Tempat Tanggal Lahir"> TTL</abbr> : Bandung, <time datetime="2002-12-07">07 Desember 2002</time><br><br>
+
+		<!-- Tag <img> digunakan untuk menampilkan gambar yang berada dalam folder html -->	
+		<img src="mahasiswa.png" width="150" height="100">
+
+
+		<!-- Tag <ol> atau order list adalah tag yang digunakan untuk membuat list baris secara berurut -->
+		<ol>Kegemaran : 
+  			<li>Membaca</li>
+ 			<li>Berenang</li>
+  			<li>Menggambar</li>
+		</ol>
+
+		<!-- Tag <table> digunakann untuk membuat table -->
+		<table>
+		<!-- Tag <tr> digunakan untuk membuat baris-->
+  		<tr>
+  			<!-- Tag <th> digunakan untuk membuat judul -->
+    		<th>Mata Kuliah</th>
+    		<th>Nilai</th>
+  		</tr>
+  		<tr>
+    		<td>Pengantar RPL</td>
+    		<td>A</td>
+  		</tr>
+  		<tr>
+    		<td>Matematika Kompoutasi</td>
+    		<td>B</td>
+  		</tr>
+  		<tr>
+  			<td>B.Indonesia</td>
+  			<td>AB</td>
+  		</tr>
+			</table>
+
+		<br>
+		<!-- Tag <button> digunakan untuk membuat button klik -->
+		<button type="button">Click Here!</button>
+
+		<!-- Tag <a> digunakan untuk menyantumkan link yang dapat di gunakan oleh user-->
+		<a href="https://www.youtube.com/watch?v=-_Cz0yHDrtc">Visit Youtube.com!</a>
+
+		<p>Silahkan pilih subject yang ingin diambil</p>
+		<!-- Tag <select> digunakan untuk memilih data yang telah disediakan -->
+  			<label for="Subject">Choose a subject:</label>
+  		<select name="subjects" id="subjects">
+    		<option value="Web Dasar">Web Dasar</option>
+    		<option value="Inggris">Inggris</option>
+    		<option value="Sistem Operasi">Sistem Operasi</option>
+  		</select>
+  		<br><br>
+  		<!-- Tag <input> digunakan untuk memungkin jika user ingin memasukan data -->
+  		<input type="submit" value="Submit">
+		</form>
+
+
+</body>
+</html>		
